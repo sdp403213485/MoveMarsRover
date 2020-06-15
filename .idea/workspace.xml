@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="325caac3-ce2a-46cc-8254-1f027f67211a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MoveMarsRover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MoveMarsRover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MoveMarsRoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoveMarsRoverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +38,22 @@
     <property name="project.structure.proportion" value="0.15541922" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.MoveMarsRoverTest.W_order_R">
-    <configuration name="MoveMarsRoverTest.E_order_L" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoveMarsRoverTest.N_order_MMR">
+    <configuration name="MoveMarsRoverTest.N_order_MMR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="moveMarsRover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="E_order_L" />
+      <option name="METHOD_NAME" value="N_order_MMR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveMarsRoverTest.E_order_R" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveMarsRoverTest.N_order_MMRMLRR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="moveMarsRover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="E_order_R" />
+      <option name="METHOD_NAME" value="N_order_MMRMLRR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveMarsRoverTest.N_order_MMR" />
+        <item itemvalue="JUnit.MoveMarsRoverTest.N_order_MMRMLRR" />
         <item itemvalue="JUnit.MoveMarsRoverTest.W_order_R" />
         <item itemvalue="JUnit.MoveMarsRoverTest.W_order_L" />
         <item itemvalue="JUnit.MoveMarsRoverTest.W_order_M" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.E_order_R" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.E_order_L" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592212260371</updated>
       <workItem from="1592212263126" duration="4741000" />
-      <workItem from="1592228905709" duration="3874000" />
+      <workItem from="1592228905709" duration="4132000" />
     </task>
     <servers />
   </component>
@@ -134,22 +134,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="218" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592212280307" />
-    <state width="1397" height="240" key="GridCell.Tab.0.bottom" timestamp="1592233522268">
+    <state width="1397" height="240" key="GridCell.Tab.0.bottom" timestamp="1592233788243">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592233522268" />
-    <state width="1397" height="240" key="GridCell.Tab.0.center" timestamp="1592233522267">
+    <state width="1397" height="240" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592233788243" />
+    <state width="1397" height="240" key="GridCell.Tab.0.center" timestamp="1592233788243">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592233522267" />
-    <state width="1397" height="240" key="GridCell.Tab.0.left" timestamp="1592233522267">
+    <state width="1397" height="240" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592233788243" />
+    <state width="1397" height="240" key="GridCell.Tab.0.left" timestamp="1592233788243">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592233522267" />
-    <state width="1397" height="240" key="GridCell.Tab.0.right" timestamp="1592233522268">
+    <state width="1397" height="240" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592233788243" />
+    <state width="1397" height="240" key="GridCell.Tab.0.right" timestamp="1592233788243">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592233522268" />
+    <state width="1397" height="240" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592233788243" />
     <state x="416" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1592228905648">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
