@@ -26,6 +26,16 @@ public class MoveMarsRover {
                     marsRover.setDirection("E");
                 }
             }else if (marsRover.getDirection() == "S"){
+                if (c == 'M'){
+                    int y = marsRover.getY();
+                    marsRover.setY(y-1);
+                }else if (c == 'L'){
+                    String d = marsRover.getDirection();
+                    marsRover.setDirection("E");
+                }else if (c == 'R'){
+                    String d = marsRover.getDirection();
+                    marsRover.setDirection("W");
+                }
 
             }else if (marsRover.getDirection() == "E"){
 
