@@ -7,13 +7,26 @@ import static org.junit.Assert.assertSame;
 
 public class MoveMarsRoverTest {
     @Test
-    public void shoud_M(){
+    public void N_order_M(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
         MarsRover ExpectedResult = new MarsRover(0,1,"N");
         MarsRover marsRover = moveMarsRover.initStatus(0, 0, "N");
         MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
+        //then
+        assertEquals(result,ExpectedResult);
+        //assertSame(result,ExpectedResult);
+    }
+
+    @Test
+    public void N_order_L(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(0,1,"W");
+        MarsRover marsRover = moveMarsRover.initStatus(0, 0, "N");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "L");
         //then
         assertEquals(result,ExpectedResult);
         //assertSame(result,ExpectedResult);
