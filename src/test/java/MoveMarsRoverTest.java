@@ -1,9 +1,5 @@
 import org.junit.Test;
-
-import java.lang.ref.SoftReference;
-
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertSame;
 
 public class MoveMarsRoverTest {
     @Test
@@ -16,7 +12,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -29,7 +24,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "L");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -42,7 +36,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "R");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -55,7 +48,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -68,7 +60,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "L");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -81,7 +72,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "R");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -94,7 +84,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -107,7 +96,6 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "L");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
     }
 
     @Test
@@ -120,6 +108,41 @@ public class MoveMarsRoverTest {
         MarsRover result = moveMarsRover.moveOrder(marsRover, "R");
         //then
         assertEquals(result,ExpectedResult);
-        //assertSame(result,ExpectedResult);
+    }
+
+    @Test
+    public void W_order_M(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(-1,0,"W");
+        MarsRover marsRover = moveMarsRover.initStatus(0, 0, "W");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
+
+    @Test
+    public void W_order_L(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(0,0,"S");
+        MarsRover marsRover = moveMarsRover.initStatus(0, 0, "W");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "L");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
+
+    @Test
+    public void W_order_R(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(0,0,"N");
+        MarsRover marsRover = moveMarsRover.initStatus(0, 0, "W");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "R");
+        //then
+        assertEquals(result,ExpectedResult);
     }
 }
