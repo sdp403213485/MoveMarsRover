@@ -157,4 +157,16 @@ public class MoveMarsRoverTest {
         //then
         assertEquals(result,ExpectedResult);
     }
+
+    @Test
+    public void N_order_MMRMLRR(){
+        //given MMRMLRR
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(1,2,"S");
+        MarsRover marsRover = moveMarsRover.initStatus(0, 0, "N");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "MMRMLRR");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
 }
