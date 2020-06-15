@@ -15,8 +15,23 @@ public class MoveMarsRover {
         for(int i = 0; i < moreOrder.length(); i++) {
             char c = moreOrder.charAt(i);
             if (marsRover.getDirection() == "N"){
+                if (c == 'M'){
+                    int y = marsRover.getY();
+                    marsRover.setY(y+1);
+                }else if (c == 'L'){
+                    String d = marsRover.getDirection();
+                    marsRover.setDirection("W");
+                }else if (c == 'R'){
+                    String d = marsRover.getDirection();
+                    marsRover.setDirection("E");
+                }
+            }else if (marsRover.getDirection() == "S"){
 
-            }else
+            }else if (marsRover.getDirection() == "E"){
+
+            }else if (marsRover.getDirection() == "W"){
+
+            }
 
 //            if (c == 'M'){
 //                int y = marsRover.getY();
