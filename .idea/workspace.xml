@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="325caac3-ce2a-46cc-8254-1f027f67211a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MarsRover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MarsRover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MarsRover.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MoveMarsRover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MoveMarsRover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Position.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MoveMarsRoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoveMarsRoverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,23 +45,12 @@
     <property name="project.structure.proportion" value="0.15541922" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_W_when_input_RM_with_init_negative_5_5_W">
-    <configuration name="MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_LM_with_init_negative_5_5_E" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoveMarsRoverTest">
+    <configuration name="MoveMarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="moveMarsRover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="should_returen_negative_5_5_N_when_input_LM_with_init_negative_5_5_E" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_L_with_init_negative_5_5_E" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="moveMarsRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="should_returen_negative_5_5_N_when_input_L_with_init_negative_5_5_E" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,13 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoveMarsRoverTest.should_return_0_1_N_when_input_M_with_init_0_0_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="moveMarsRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
+      <option name="METHOD_NAME" value="should_return_0_1_N_when_input_M_with_init_0_0_N" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveMarsRoverTest" />
+        <item itemvalue="JUnit.MoveMarsRoverTest.should_return_0_1_N_when_input_M_with_init_0_0_N" />
         <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_W_when_input_RM_with_init_negative_5_5_W" />
         <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_W_when_input_ML_with_init_negative_5_5_W" />
         <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_W_when_input_M_with_init_negative_5_5_W" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_LM_with_init_negative_5_5_E" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_L_with_init_negative_5_5_E" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +117,7 @@
       <updated>1592212260371</updated>
       <workItem from="1592212263126" duration="4741000" />
       <workItem from="1592228905709" duration="4634000" />
-      <workItem from="1592269794519" duration="11037000" />
+      <workItem from="1592269794519" duration="12612000" />
     </task>
     <servers />
   </component>
@@ -129,30 +133,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="100" y="100" width="1240" height="720" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.920@0.0.1440.920" timestamp="1592233903821" />
-    <state x="526" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1592290142964">
+    <state x="526" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1592293315967">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="526" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592290142964" />
+    <state x="526" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592293315967" />
     <state x="501" y="218" key="FileChooserDialogImpl" timestamp="1592269973901">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="218" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592269973901" />
-    <state width="1382" height="94" key="GridCell.Tab.0.bottom" timestamp="1592292254949">
+    <state width="1382" height="47" key="GridCell.Tab.0.bottom" timestamp="1592293843755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="94" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592292254949" />
-    <state width="1382" height="94" key="GridCell.Tab.0.center" timestamp="1592292254949">
+    <state width="1382" height="47" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592293843755" />
+    <state width="1382" height="47" key="GridCell.Tab.0.center" timestamp="1592293843754">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="94" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592292254949" />
-    <state width="1382" height="94" key="GridCell.Tab.0.left" timestamp="1592292254949">
+    <state width="1382" height="47" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592293843754" />
+    <state width="1382" height="47" key="GridCell.Tab.0.left" timestamp="1592293843754">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="94" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592292254949" />
-    <state width="1382" height="94" key="GridCell.Tab.0.right" timestamp="1592292254949">
+    <state width="1382" height="47" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592293843754" />
+    <state width="1382" height="47" key="GridCell.Tab.0.right" timestamp="1592293843755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="94" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592292254949" />
+    <state width="1382" height="47" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592293843755" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1592234244155">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
