@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 
 public class MoveMarsRoverTest {
     @Test
-    public void Begin_Derection_N_OrderIs_M(){
+    public void should_return_0_1_N_when_input_M_with_init_0_0_N(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -15,7 +15,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_N_OrderIs_L(){
+    public void should_return_0_0_W_when_input_L_with_init_0_0_N(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -27,7 +27,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_N_OrderIs_R(){
+    public void should_return_0_0_E_when_input_R_with_init_0_0_N(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -39,7 +39,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_S_OrderIs_M(){
+    public void should_returen_0_Minus1_N_when_input_M_with_init_0_0_S(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -51,7 +51,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_S_OrderIs_L(){
+    public void should_returen_0_0_E_when_input_L_with_init_0_0_S(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -63,7 +63,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_S_OrderIs_R(){
+    public void should_returen_0_0_W_when_input_R_with_init_0_0_S(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -75,7 +75,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_E_OrderIs_M(){
+    public void should_returen_1_0_E_when_input_M_with_init_0_0_E(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -87,7 +87,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_E_OrderIs_L(){
+    public void should_returen_0_0_N_when_input_L_with_init_0_0_E(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -99,7 +99,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_E_OrderIs_R(){
+    public void should_returen_0_0_S_when_input_R_with_init_0_0_E(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -111,7 +111,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_W_OrderIs_M(){
+    public void should_returen_negative_1_0_N_when_input_M_with_init_0_0_W(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -123,7 +123,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_W_OrderIs_L(){
+    public void should_returen_0_0_S_when_input_L_with_init_0_0_W(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -135,7 +135,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_W_OrderIs_R(){
+    public void should_returen_0_0_N_when_input_R_with_init_0_0_W(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -147,7 +147,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_N_order_MMR(){
+    public void should_returen_0_2_E_when_input_MMR_with_init_0_0_N(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -159,13 +159,25 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void Begin_Derection_N_order_MMRMLRR(){
+    public void should_returen_1_2_S_when_input_MMRMLRR_with_init_0_0_N(){
         //given MMRMLRR
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
         MarsRover ExpectedResult = new MarsRover(1,2,"S");
         MarsRover marsRover = moveMarsRover.initStatus(0, 0, "N");
         MarsRover result = moveMarsRover.moveOrder(marsRover, "MMRMLRR");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
+
+    @Test
+    public void should_returen_negative_5_5_N_when_input_M_with_init_negative_5_5_N(){
+        //given MMRMLRR
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(-5,5,"N");
+        MarsRover marsRover = moveMarsRover.initStatus(-5, 5, "N");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
         //then
         assertEquals(result,ExpectedResult);
     }
