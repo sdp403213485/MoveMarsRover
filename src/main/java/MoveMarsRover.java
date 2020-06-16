@@ -14,13 +14,15 @@ public class MoveMarsRover {
     public MarsRover moveOrder(MarsRover marsRover,String moreOrder){
         for(int i = 0; i < moreOrder.length(); i++) {
             char c = moreOrder.charAt(i);
-
-            if(marsRover.getX() <= -5 || marsRover.getY() >=5){
-               return marsRover;
-            }
+//            if(c == 'M' & (marsRover.getX() <= -5 || marsRover.getY() >=5)) {
+//               return marsRover;
+//            }
             //初始方向为N
             if (marsRover.getDirection() == "N"){
                 if (c == 'M'){
+                    if(marsRover.getX() < -5 || marsRover.getY() >= 5) {
+                        return marsRover;
+                    }
                     int y = marsRover.getY();
                     marsRover.setY(y+1);
                 }else if (c == 'L'){
@@ -33,6 +35,9 @@ public class MoveMarsRover {
             //初始方向为S
             }else if (marsRover.getDirection() == "S"){
                 if (c == 'M'){
+                    if(marsRover.getX() < -5 || marsRover.getY() > 5) {
+                        return marsRover;
+                    }
                     int y = marsRover.getY();
                     marsRover.setY(y-1);
                 }else if (c == 'L'){

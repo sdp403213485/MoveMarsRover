@@ -172,11 +172,47 @@ public class MoveMarsRoverTest {
 
     @Test
     public void should_returen_negative_5_5_N_when_input_M_with_init_negative_5_5_N(){
-        //given MMRMLRR
+        //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
         MarsRover ExpectedResult = new MarsRover(-5,5,"N");
         MarsRover marsRover = moveMarsRover.initStatus(-5, 5, "N");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
+
+    @Test
+    public void should_returen_negative_5_5_E_when_input_M_with_init_negative_5_5_N(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(-5,5,"E");
+        MarsRover marsRover = moveMarsRover.initStatus(-5, 5, "N");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "R");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
+
+    @Test
+    public void should_returen_negative_5_5_N_when_input_M_with_init_negative_5_4_N(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(-5,5,"N");
+        MarsRover marsRover = moveMarsRover.initStatus(-5, 4, "N");
+        MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
+        //then
+        assertEquals(result,ExpectedResult);
+    }
+
+    @Test
+    public void should_returen_negative_5_4_S_when_input_M_with_init_negative_5_5_S(){
+        //given
+        MoveMarsRover moveMarsRover = new MoveMarsRover();
+        //when
+        MarsRover ExpectedResult = new MarsRover(-5,4,"S");
+        MarsRover marsRover = moveMarsRover.initStatus(-5, 5, "S");
         MarsRover result = moveMarsRover.moveOrder(marsRover, "M");
         //then
         assertEquals(result,ExpectedResult);

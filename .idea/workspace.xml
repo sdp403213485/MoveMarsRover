@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325caac3-ce2a-46cc-8254-1f027f67211a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" afterDir="false" />
@@ -41,32 +40,42 @@
     <property name="project.structure.proportion" value="0.15541922" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_M_with_init_negative_5_5_N">
-    <configuration name="MoveMarsRoverTest.should_returen_0_0_W_when_input_R_with_init_0_0_S" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="moveMarsRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="should_returen_0_0_W_when_input_R_with_init_0_0_S" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveMarsRoverTest.should_returen_1_0_E_when_input_M_with_init_0_0_E" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="moveMarsRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="should_returen_1_0_E_when_input_M_with_init_0_0_E" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MoveMarsRoverTest.should_returen_negative_5_4_S_when_input_M_with_init_negative_5_5_S">
     <configuration name="MoveMarsRoverTest.should_returen_1_2_S_when_input_MMRMLRR_with_init_0_0_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="moveMarsRover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
       <option name="METHOD_NAME" value="should_returen_1_2_S_when_input_MMRMLRR_with_init_0_0_N" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveMarsRoverTest.should_returen_negative_5_4_S_when_input_M_with_init_negative_5_5_S" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="moveMarsRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
+      <option name="METHOD_NAME" value="should_returen_negative_5_4_S_when_input_M_with_init_negative_5_5_S" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveMarsRoverTest.should_returen_negative_5_5_E_when_input_M_with_init_negative_5_5_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="moveMarsRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
+      <option name="METHOD_NAME" value="should_returen_negative_5_5_E_when_input_M_with_init_negative_5_5_N" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_M_with_init_negative_5_4_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="moveMarsRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
+      <option name="METHOD_NAME" value="should_returen_negative_5_5_N_when_input_M_with_init_negative_5_4_N" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,23 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveMarsRoverTest.should_return_0_0_E_when_input_R_with_init_0_0_N" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="moveMarsRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveMarsRoverTest" />
-      <option name="METHOD_NAME" value="should_return_0_0_E_when_input_R_with_init_0_0_N" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_4_S_when_input_M_with_init_negative_5_5_S" />
         <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_M_with_init_negative_5_5_N" />
+        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_E_when_input_M_with_init_negative_5_5_N" />
+        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_negative_5_5_N_when_input_M_with_init_negative_5_4_N" />
         <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_1_2_S_when_input_MMRMLRR_with_init_0_0_N" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.should_return_0_0_E_when_input_R_with_init_0_0_N" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_0_0_W_when_input_R_with_init_0_0_S" />
-        <item itemvalue="JUnit.MoveMarsRoverTest.should_returen_1_0_E_when_input_M_with_init_0_0_E" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +113,7 @@
       <updated>1592212260371</updated>
       <workItem from="1592212263126" duration="4741000" />
       <workItem from="1592228905709" duration="4634000" />
-      <workItem from="1592269794519" duration="9698000" />
+      <workItem from="1592269794519" duration="10635000" />
     </task>
     <servers />
   </component>
@@ -138,22 +137,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="218" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592269973901" />
-    <state width="1382" height="43" key="GridCell.Tab.0.bottom" timestamp="1592290912364">
+    <state width="1382" height="94" key="GridCell.Tab.0.bottom" timestamp="1592291815959">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="43" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592290912364" />
-    <state width="1382" height="43" key="GridCell.Tab.0.center" timestamp="1592290912364">
+    <state width="1382" height="94" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592291815959" />
+    <state width="1382" height="94" key="GridCell.Tab.0.center" timestamp="1592291815959">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="43" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592290912364" />
-    <state width="1382" height="43" key="GridCell.Tab.0.left" timestamp="1592290912364">
+    <state width="1382" height="94" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592291815959" />
+    <state width="1382" height="94" key="GridCell.Tab.0.left" timestamp="1592291815958">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="43" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592290912364" />
-    <state width="1382" height="43" key="GridCell.Tab.0.right" timestamp="1592290912364">
+    <state width="1382" height="94" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592291815958" />
+    <state width="1382" height="94" key="GridCell.Tab.0.right" timestamp="1592291815959">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1382" height="43" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592290912364" />
+    <state width="1382" height="94" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592291815959" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1592234244155">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
