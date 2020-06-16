@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 
 public class MoveMarsRoverTest {
     @Test
-    public void N_order_M(){
+    public void Begin_Derection_N_OrderIs_M(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -15,7 +15,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void N_order_L(){
+    public void Begin_Derection_N_OrderIs_L(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -27,7 +27,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void N_order_R(){
+    public void Begin_Derection_N_OrderIs_R(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -39,7 +39,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void S_order_M(){
+    public void Begin_Derection_S_OrderIs_M(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -51,7 +51,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void S_order_L(){
+    public void Begin_Derection_S_OrderIs_L(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -63,7 +63,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void S_order_R(){
+    public void Begin_Derection_S_OrderIs_R(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -75,7 +75,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void E_order_M(){
+    public void Begin_Derection_E_OrderIs_M(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -87,7 +87,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void E_order_L(){
+    public void Begin_Derection_E_OrderIs_L(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -99,7 +99,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void E_order_R(){
+    public void Begin_Derection_E_OrderIs_R(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -111,7 +111,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void W_order_M(){
+    public void Begin_Derection_W_OrderIs_M(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -123,7 +123,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void W_order_L(){
+    public void Begin_Derection_W_OrderIs_L(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -135,7 +135,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void W_order_R(){
+    public void Begin_Derection_W_OrderIs_R(){
         //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
@@ -147,8 +147,8 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void N_order_MMR(){
-        //given MMRMLRR
+    public void Begin_Derection_N_order_MMR(){
+        //given
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when
         MarsRover ExpectedResult = new MarsRover(0,2,"E");
@@ -159,7 +159,7 @@ public class MoveMarsRoverTest {
     }
 
     @Test
-    public void N_order_MMRMLRR(){
+    public void Begin_Derection_N_order_MMRMLRR(){
         //given MMRMLRR
         MoveMarsRover moveMarsRover = new MoveMarsRover();
         //when

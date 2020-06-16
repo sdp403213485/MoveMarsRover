@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="325caac3-ce2a-46cc-8254-1f027f67211a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveMarsRover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoveMarsRoverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MoveMarsRover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MoveMarsRover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MoveMarsRoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoveMarsRoverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +110,7 @@
       <updated>1592212260371</updated>
       <workItem from="1592212263126" duration="4741000" />
       <workItem from="1592228905709" duration="4634000" />
+      <workItem from="1592269794519" duration="793000" />
     </task>
     <servers />
   </component>
@@ -132,10 +130,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592231000724" />
-    <state x="501" y="218" key="FileChooserDialogImpl" timestamp="1592212280307">
+    <state x="501" y="218" key="FileChooserDialogImpl" timestamp="1592269973901">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="218" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592212280307" />
+    <state x="501" y="218" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592269973901" />
     <state width="1397" height="240" key="GridCell.Tab.0.bottom" timestamp="1592234286645">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -168,10 +166,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592234244155" />
-    <state x="416" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1592228905648">
+    <state x="416" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1592269796107">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="416" y="288" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1592228905648" />
+    <state x="416" y="288" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1592269796107" />
     <state x="383" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1592213338213">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
