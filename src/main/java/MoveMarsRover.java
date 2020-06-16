@@ -1,4 +1,5 @@
 public class MoveMarsRover {
+    //限位
     private static int limitX = -5;
     private static int limitY = 5;
 
