@@ -50,6 +50,9 @@ public class MoveMarsRover {
             //初始方向为E
             }else if (marsRover.getDirection() == "E"){
                 if (c == 'M'){
+                    if(marsRover.getX() < -5 || marsRover.getY() > 5) {
+                        return marsRover;
+                    }
                     int x = marsRover.getX();
                     marsRover.setX(x+1);
                 }else if (c == 'L'){
@@ -62,6 +65,9 @@ public class MoveMarsRover {
             //初始方向为W
             }else if (marsRover.getDirection() == "W"){
                 if (c == 'M'){
+                    if(marsRover.getX() <= -5 || marsRover.getY() > 5) {
+                        return marsRover;
+                    }
                     int x = marsRover.getX();
                     marsRover.setX(x-1);
                 }else if (c == 'L'){
